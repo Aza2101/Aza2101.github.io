@@ -1,0 +1,1072 @@
+/* line 1, ../../../Desktop/AZAMAT/HTML/uber.html/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 1, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+header {
+  position: relative;
+  height: 50px;
+}
+
+/* line 5, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #212121;
+  z-index: 3;
+}
+
+/* line 11, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.hamburger {
+  display: none;
+}
+
+/* line 13, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 20, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.menu_link {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 24, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.menu_link:hover {
+  text-decoration: none;
+  color: #1eacc7;
+}
+
+/* line 27, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+  list-style-type: none;
+}
+
+/* line 31, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.menu_item:last-child {
+  border-right: none;
+}
+
+/* line 34, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.subheader {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 41, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.subheader_logo {
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 45, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.subheader_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 52, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.subheader_call {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 19px;
+  text-align: right;
+}
+
+/* line 59, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.subheader_phone {
+  display: block;
+  margin-top: 8px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 12px;
+}
+
+/* line 69, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 2, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_mixins.sass */
+.subheader_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 85, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.promo {
+  background: url("../img/bg/first_bg.jpg") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 88, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.promo_header {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 97, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.promo_subheader {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+
+/* line 107, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.promo_descr {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 23px;
+}
+
+/* line 115, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 2, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_mixins.sass */
+.promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 132, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.reasons {
+  padding: 71px 0 65px 0;
+}
+
+/* line 135, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+/* line 141, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+/* line 151, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.reasons_descr {
+  width: 343px;
+}
+
+/* line 154, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.reasons_subtitle {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* line 160, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.reasons_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+/* line 166, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.label {
+  position: relative;
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 179, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.label_white {
+  background-color: #fff;
+  color: #000;
+}
+
+/* line 183, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.title {
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  z-index: 2;
+}
+
+/* line 194, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.title_white {
+  color: #ffffff;
+}
+
+/* line 197, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.subtitle {
+  position: relative;
+  color: #222222;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 19px;
+  z-index: 2;
+}
+
+/* line 205, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.subtitle_white {
+  color: #fff;
+}
+
+/* line 209, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.mobile {
+  padding: 48px 0 80px;
+  background: url("../img/bg/mobile_bg.jpg") center center/cover no-repeat;
+}
+
+/* line 212, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 214, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+}
+
+/* line 220, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.mobile_item_1 {
+  background: url("../img/photo/mobile_1.jpg") center center/cover no-repeat;
+}
+
+/* line 222, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.mobile_item_2 {
+  background: url("../img/photo/mobile_2.jpg") center center/cover no-repeat;
+}
+
+/* line 224, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.mobile_item_3 {
+  background: url("../img/photo/mobile_3.jpg") center center/cover no-repeat;
+}
+
+/* line 226, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.mobile_item_4 {
+  background: url("../img/photo/mobile_4.jpg") center center/cover no-repeat;
+}
+
+/* line 228, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.mobile_item_5 {
+  background: url("../img/photo/mobile_5.jpg") center center/cover no-repeat;
+}
+
+/* line 230, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.mobile_item_6 {
+  background: url("../img/photo/mobile_6.jpg") center center/cover no-repeat;
+}
+
+/* line 232, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.mobile_item_subtitle {
+  padding-top: 92px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+/* line 240, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.mobile_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 26px;
+  height: 26px;
+  background-color: #000000;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/* line 253, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.mobile_item_plus::before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+  transition: 0.3s;
+}
+
+/* line 260, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.mobile_item_plus::after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 14px;
+  background-color: #1eacc7;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.3s;
+}
+
+/* line 271, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.mobile_item_plus:hover::before, .mobile_item_plus:hover::after {
+  background-color: #ff5656;
+}
+
+/* line 274, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.choice {
+  position: relative;
+  padding: 57px 0 138px;
+  background: url("../img/bg/mobile_bg.jpg") center center/cover no-repeat;
+}
+
+/* line 278, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.choice .black {
+  height: 499px;
+  width: 100%;
+  background-color: #070716;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* line 286, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.choice_car {
+  position: relative;
+  display: block;
+  margin: 56px auto 0;
+  z-index: 2;
+}
+
+/* line 291, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.choice_descr {
+  color: #222222;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+}
+
+/* line 298, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.require {
+  padding: 68px 0 84px;
+}
+
+/* line 300, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.require .title {
+  margin-bottom: 33px;
+}
+
+/* line 302, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.require_header {
+  color: #ff5656;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+/* line 308, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.require_list {
+  color: #222222;
+  font-size: 17px;
+  font-weight: 300;
+  list-style-type: none;
+}
+
+/* line 313, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.require_list li {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+/* line 316, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.require_list li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -32px;
+  top: 2px;
+  width: 21px;
+  height: 20px;
+  background: url("../img/logo/completed_r.png") center center/cover no-repeat;
+}
+
+/* line 325, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.require_descr {
+  font-size: 17px;
+  font-weight: 300;
+  color: #1eacc7;
+}
+
+/* line 329, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.require_block {
+  margin-bottom: 62px;
+}
+
+/* line 331, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.require_block .require_header {
+  color: #1eacc7;
+}
+
+/* line 333, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.require_block li::before {
+  background: none;
+  background: url("../img/logo/completed_b.png") center center/cover no-repeat;
+}
+
+/* line 337, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.world {
+  position: relative;
+  background: url("../img/bg/last_bg.jpg") center center/cover no-repeat;
+  min-height: 717px;
+  padding: 49px 0;
+}
+
+/* line 342, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.world_link {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 49px;
+  color: #1fbad6;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 352, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+footer {
+  padding: 14px 23px 39px 23px;
+}
+
+/* line 355, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+footer a:hover {
+  text-decoration: none;
+}
+
+/* line 358, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.footer_divider {
+  width: 299px;
+  height: 4px;
+  background-color: #1fbad6;
+  margin: 0 auto;
+}
+
+/* line 363, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 32px;
+}
+
+/* line 368, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.footer_wrapper_div {
+  width: 33%;
+}
+
+/* line 370, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.footer_wrapper_div:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 373, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.footer_social {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 377, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.footer_social_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4px;
+  width: 32px;
+  height: 32px;
+  background-color: #070716;
+  border-radius: 100%;
+}
+
+/* line 386, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.footer_social_item i {
+  color: #fff;
+}
+
+/* line 388, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.footer_links {
+  width: 390px;
+  margin: 0 auto;
+}
+
+/* line 391, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.footer_links_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+/* line 395, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.footer_links_main a {
+  color: #070716;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 400, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.footer_links_sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* line 404, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.footer_links_sub a {
+  color: #999999;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 410, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_general.sass */
+.xs-visible {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  /* line 3, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .menu_item {
+    padding-right: 20px;
+  }
+  /* line 5, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .menu_link {
+    font-size: 13px;
+  }
+  /* line 8, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .promo_header {
+    font-size: 52px;
+    line-height: 55px;
+  }
+  /* line 12, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .reasons_descr {
+    width: 310px;
+  }
+  /* line 14, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .reasons_descr_block {
+    align-items: flex-start;
+  }
+  /* line 17, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .mobile_item {
+    width: 300px;
+  }
+  /* line 20, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .footer_links {
+    width: 100%;
+  }
+  /* line 22, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .footer_links_main a {
+    font-size: 14px;
+  }
+  /* line 24, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .footer_links_sub a {
+    font-size: 10px;
+  }
+  /* line 27, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .footer_mobile_img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 31, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .title {
+    font-size: 33px;
+  }
+  /* line 33, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .subtitle {
+    font-size: 15px;
+  }
+  /* line 36, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .menu_item {
+    padding-right: 9px;
+  }
+  /* line 38, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .menu_link {
+    font-size: 10px;
+  }
+  /* line 41, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .subheader_official {
+    font-size: 11px;
+  }
+  /* line 43, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .subheader_phone {
+    font-size: 19px;
+  }
+  /* line 45, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .subheader_btn {
+    margin-top: 24px;
+    width: 100%;
+    height: 35px;
+    font-size: 13px;
+  }
+  /* line 51, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .promo_header {
+    font-size: 41px;
+    line-height: 46px;
+  }
+  /* line 54, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 57, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .reasons_block {
+    flex-direction: column;
+  }
+  /* line 59, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .reasons_descr {
+    margin-top: 20px;
+  }
+  /* line 62, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .mobile_item {
+    width: 220px;
+    height: 235px;
+  }
+  /* line 65, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .mobile_item_subtitle {
+    padding-top: 70px;
+    font-size: 18px;
+  }
+  /* line 69, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .choice_car {
+    width: 550px;
+    margin-top: 100px;
+  }
+  /* line 73, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .require_list {
+    font-size: 15px;
+  }
+  /* line 75, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .require_list li {
+    margin-bottom: 8px;
+  }
+  /* line 78, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .footer_social {
+    width: 150px;
+  }
+  /* line 80, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .footer_social_item {
+    margin: 0;
+  }
+  /* line 84, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .footer_links_main a {
+    font-size: 11px;
+  }
+  /* line 87, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .footer_links_sub a {
+    font-size: 8px;
+  }
+  /* line 90, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .footer_mobile_img {
+    width: 190px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 93, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .menu {
+    padding: 0;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  /* line 105, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .menu_active {
+    left: 0;
+  }
+  /* line 107, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .menu_item {
+    border: none;
+    padding-right: 0;
+    margin-top: 20px;
+  }
+  /* line 111, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .menu_link {
+    font-size: 20px;
+  }
+  /* line 113, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  /* line 121, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .hamburger span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 2px;
+    background-color: #fff;
+    transition: 0.5s all;
+  }
+  /* line 129, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 131, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 133, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 135, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 137, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .xs-hidden {
+    display: none;
+  }
+  /* line 139, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .xs-visible {
+    display: block;
+  }
+  /* line 142, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .subheader_official {
+    display: none;
+  }
+  /* line 144, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .subheader_phone {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  /* line 152, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .subheader_btn {
+    display: block;
+    width: 150px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  /* line 162, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .mobile_item {
+    width: 100%;
+  }
+  /* line 165, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .reasons_block {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 169, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .choice_car {
+    width: 500px;
+  }
+  /* line 171, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .world {
+    min-height: 600px;
+  }
+  /* line 173, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  footer {
+    padding-bottom: 10px;
+  }
+  /* line 176, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .footer_social {
+    width: 153px;
+    margin: 0 auto;
+  }
+  /* line 179, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .footer_wrapper {
+    display: block;
+    padding-top: 20px;
+  }
+  /* line 182, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .footer_wrapper_div {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 280px;
+  }
+  /* line 186, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .footer_wrapper_div:nth-child(3) {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 190, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .footer_links_sub {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 195, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .menu_active {
+    width: 75%;
+  }
+  /* line 197, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .menu_item {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 200, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .menu_link {
+    display: block;
+  }
+  /* line 202, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 16px;
+  }
+  /* line 206, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 8px;
+  }
+  /* line 211, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  header {
+    height: 30px;
+  }
+  /* line 213, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  nav {
+    height: 30px;
+  }
+  /* line 215, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .promo {
+    min-height: 340px;
+    padding: 90px 0 35px 0;
+  }
+  /* line 218, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .promo_header {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+  }
+  /* line 222, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .promo_subheader {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  /* line 226, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .promo_descr {
+    display: none;
+  }
+  /* line 228, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .promo_btn {
+    margin-top: 72px;
+    width: 210px;
+    height: 50px;
+  }
+  /* line 232, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .promo_btn:hover {
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  }
+  /* line 234, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .subheader {
+    height: 60px;
+    top: 30px;
+  }
+  /* line 237, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .subheader_btn {
+    width: 120px;
+    height: 23px;
+    font-size: 11px;
+    margin-top: 7px;
+  }
+  /* line 242, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .subheader_btn:hover {
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  }
+  /* line 244, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .subheader_logo {
+    margin-top: 20px;
+  }
+  /* line 246, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .reasons {
+    padding: 23px 0 50px 0;
+  }
+  /* line 248, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .reasons_block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 26px;
+  }
+  /* line 252, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .reasons_round {
+    margin: 0 auto;
+  }
+  /* line 254, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .mobile {
+    padding: 23px 0 34px;
+  }
+  /* line 256, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .mobile_item {
+    width: 290px;
+    height: 254px;
+  }
+  /* line 259, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .mobile_item_plus {
+    bottom: 28px;
+  }
+  /* line 262, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+    background-color: #1eacc7;
+  }
+  /* line 264, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .choice {
+    min-height: 390px;
+    background: #070716;
+    padding: 25px 0 33px;
+  }
+  /* line 268, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .choice_car {
+    width: 300px;
+    margin-top: 35px;
+  }
+  /* line 271, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .choice_descr {
+    color: #ffffff;
+  }
+  /* line 273, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .black {
+    display: none;
+  }
+  /* line 275, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .require {
+    padding: 25px 0;
+  }
+  /* line 277, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .require .title {
+    margin-bottom: 20px;
+  }
+  /* line 279, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .require_block {
+    margin-bottom: 31px;
+  }
+  /* line 281, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .require_red {
+    margin-bottom: 31px;
+  }
+  /* line 283, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .world {
+    padding: 25px 0 30px;
+    min-height: 360px;
+  }
+  /* line 286, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .world_link {
+    font-size: 12px;
+  }
+  /* line 289, ../../../Desktop/AZAMAT/HTML/uber.html/sass/_media.sass */
+  .footer_divider {
+    width: 280px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
